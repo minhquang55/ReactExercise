@@ -13,18 +13,22 @@ class Menu extends React.Component {
         <div className="home-icon">
           <FaHome />
         </div>
+
         <div className="projects">
           <FaFlask />
           <p>Projects</p>
         </div>
+
         <div className="breadcrumb">
           <FaAngleDoubleRight />
           <p>Breadcrumb</p>
         </div>
+
         <div className="getting-started">
           <FaRocket />
           <p>Getting Started</p>
         </div>
+        
         <div className="download">
           <FaArrowDown />
           <p>Download</p>
