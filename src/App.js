@@ -1,8 +1,13 @@
-import './App.css';
+import './App.scss';
+import Menu from './components/Menu';
+import QuizBox from './components/QuizBox';
 
 function App() {
   return (
-    <h1>hello</h1>
+    <div className="app">
+      <Menu />
+      <QuizBox />
+    </div>
   );
 }
 
